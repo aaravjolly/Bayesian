@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Test / cache artifacts
+.pytest_cache/
+.coverage
+.mypy_cache/
+.ruff_cache/
+
+# Generated output - regenerate by running the training scripts
+figures/*.png
+figures/*.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log
